@@ -22,6 +22,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 a { color: var(--primary); text-decoration: none; }
 .sidebar .cat-row {
     display: flex; justify-content: space-between; align-items: center;
@@ -34,7 +39,7 @@ a { color: var(--primary); text-decoration: none; }
     border-bottom: 1px solid rgba(255,255,255,0.1);
     text-decoration: none;
 }
-    main { padding: 1.5rem; }
+    
 .cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
 .sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
@@ -52,8 +57,8 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
 }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-    .container { padding: 1rem; }
-    .content-area { flex-direction: column; }
+    
+    
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 summary:hover { background: rgba(0,0,0,0.02); }
 footer a { color: rgba(255,255,255,0.85); }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .cta .whatsapp-btn {
     display: inline-block; background: #25D366; color: white;
@@ -129,7 +134,9 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .header-contact a:hover { color: white; }
 .servicio:hover { border-color: var(--primary); }
 h1, h2, h3, h4 { font-family: var(--font-h); }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }</style>
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Roadway in Bath – UK","@type":"WebPage","url":"https://bath.geotechnical-engineering1.com/road-geotechnics/","isPartOf":{"@id":"https://bath.geotechnical-engineering1.com/#website","@type":"WebSite","url":"https://bath.geotechnical-engineering1.com"},"inLanguage":"en","description":"In Bath, roadway engineering must address the region’s distinctive geology, from the limestone plateau of the Cotswolds to the soft alluvial clays of the A","@id":"https://bath.geotechnical-engineering1.com/road-geotechnics/"},{"itemListElement":[{"position":1,"item":"https://bath.geotechnical-engineering1.com/","@type":"ListItem","name":"Home"},{"position":2,"item":"https://bath.geotechnical-engineering1.com/road-geotechnics/","@type":"ListItem","name":"Roadway"}],"@type":"BreadcrumbList"},{"name":"Roadway","itemListElement":[{"position":1,"@type":"ListItem","name":"CBR study for road design","url":"https://bath.geotechnical-engineering1.com/cbr-road/"},{"position":2,"@type":"ListItem","name":"Flexible pavement design","url":"https://bath.geotechnical-engineering1.com/flexible-pavement/"},{"position":3,"@type":"ListItem","name":"Rigid pavement design","url":"https://bath.geotechnical-engineering1.com/rigid-pavement/"}],"@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -199,7 +206,14 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../cbr-road/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">CBR study for road design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../flexible-pavement/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Flexible pavement design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../rigid-pavement/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Rigid pavement design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/pavimento-flexible-1.webp" alt="Roadway in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Roadway geotechnical engineering in Bath demands a rigorous understanding of the city's unique geological setting, which is dominated by the Great Oolite Group limestones overlying Lias Clay formations. Our comprehensive roadway services cover the full project lifecycle, from initial desk studies identifying potential karstic features and mining voids in the Bath Stone to detailed ground characterisation. A thorough <a href="/investigation/">ground investigation</a> is the critical first step, ensuring that designs for new carriageways or remedial works on historic routes like the A36 are founded on reliable data, compliant with the UK Specification for Ground Investigation and CD 622 of the DMRB.</p>
+<p>Our field methodology relies heavily on techniques standardised by British Standards, primarily BS 5930 and BS EN ISO 22476. We routinely deploy <a href="/cpt-test/">Cone Penetration Testing (CPT)</a> to rapidly profile the variable Lias Clay, providing continuous data on undrained shear strength and soil behaviour type without disturbance. This is complemented by <a href="/lab-in-situ/">in-situ testing</a> and quality control measures such as the <a href="/sand-cone-density/">field density test (sand cone method)</a> to verify the compaction of engineered fill and capping layers in accordance with Series 600 of the Manual of Contract Documents for Highway Works. These methods combined provide a direct correlation between design parameters and actual ground conditions.</p>
+<p>Typical projects across Bath and the surrounding Cotswold edge require solutions tailored to both the historic urban fabric and the challenging rural topography. We regularly design <a href="/foundations/">foundations</a> for new bridge abutments and retaining walls on the sloping sites characteristic of the Avon Valley, where the interaction between stiff clay and shallow bedrock governs stability. Our <a href="/laboratory/">laboratory</a> testing programmes are integral to this, determining the <a href="/atterberg-limits/">Atterberg limits</a> of cohesive subgrade soils to predict shrink-swell potential, a significant risk in the Lias Clay. We also perform <a href="/grain-size/">grain size analysis</a> using both sieve and hydrometer methods to classify granular drainage layers and assess frost heave susceptibility, ensuring long-term pavement performance.</p>
+<img src="/img/pavimento-flexible-1.webp" alt="Roadway in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>From intrusive fieldwork through to interpretative reporting, our process delivers a clear set of geotechnical deliverables. We provide factual and interpretative reports containing ground models, characteristic values, and recommendations for earthworks, pavement design, and drainage. This integrated approach, combining high-quality data from CPT and laboratory testing with local geological expertise, allows us to de-risk the ground for highway projects, providing our clients in Bath with a single, technically robust value proposition from investigation to foundation design.</p></div></section></main>
     </div>
 </div>
 

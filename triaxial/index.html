@@ -25,6 +25,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 a { color: var(--primary); text-decoration: none; }
 .sidebar .cat-row {
     display: flex; justify-content: space-between; align-items: center;
@@ -37,7 +42,7 @@ a { color: var(--primary); text-decoration: none; }
     border-bottom: 1px solid rgba(255,255,255,0.1);
     text-decoration: none;
 }
-    main { padding: 1.5rem; }
+    
 .cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
 .sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
@@ -55,8 +60,8 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
 }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-    .container { padding: 1rem; }
-    .content-area { flex-direction: column; }
+    
+    
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
@@ -113,7 +118,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 summary:hover { background: rgba(0,0,0,0.02); }
 footer a { color: rgba(255,255,255,0.85); }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .cta .whatsapp-btn {
     display: inline-block; background: #25D366; color: white;
@@ -132,7 +137,9 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .header-contact a:hover { color: white; }
 .servicio:hover { border-color: var(--primary); }
 h1, h2, h3, h4 { font-family: var(--font-h); }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }</style>
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+</style>
 <link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -177,6 +184,8 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 
             <section>
                 <h2>Critical ground factors in Bath</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The triaxial cell itself is a compact but solid piece of equipment: a transparent acrylic cylinder clamped between a base pedestal and a top cap, housed inside a load frame that applies axial compression via a motorised piston. In our lab near Bath, the cell is filled with de-aired water and pressurised through a digital volume-pressure controller. A failure in the drainage line or a misaligned loading ram can invalidate a complete test sequence. The bigger risk, however, sits outside the laboratory. Disturbed samples taken from the Mercia Mudstone or the river terrace gravels near the Avon produce erratic stress-strain curves that look like a design parameter but are actually an artefact of poor sampling technique. That is why we insist on thin-walled Shelby tubes for cohesive soils and train the drilling crew specifically for the Bath geology.</p>
             </section>
 
@@ -201,6 +210,8 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
 
             <section>
                 <h2>Quick answers</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>What is the typical turnaround time for a triaxial test programme in Bath?</summary><p>A standard set of three CU triaxial tests on cohesive soil takes between 10 and 14 working days from sample receipt to report. Consolidated drained tests require longer shearing phases and may extend the schedule to 15-20 working days. We can accommodate faster turnaround for urgent projects if agreed in advance.</p></details><details><summary>How much does a triaxial test programme cost in Bath?</summary><p>A three-specimen multistage CU triaxial test programme typically ranges from £1,590 to £2,030, depending on the number of confining stages per specimen and whether drained or undrained conditions are specified. The final cost depends on the soil type, specimen preparation difficulty, and reporting requirements.</p></details><details><summary>Can you test the Mercia Mudstone found in parts of Bath?</summary><p>Yes, Mercia Mudstone can be tested, but sample preparation requires careful trimming due to its fissile nature. We typically run multistage CU tests on this material because obtaining multiple identical specimens from a single core run is rarely possible. The siltstone bands within the mudstone sequence may require larger 70 mm or 100 mm diameter specimens.</p></details><details><summary>Do you provide effective stress parameters for slope stability analysis?</summary><p>Absolutely. Consolidated drained tests with pore pressure measurement deliver the effective cohesion (c') and effective friction angle (φ') needed for limit equilibrium slope models. For the overconsolidated clays on Bath's hillsides, we also report the peak and residual strength envelopes where relevant.</p></details><details><summary>Is your laboratory accredited for triaxial testing to British Standards?</summary><p>Our laboratory operates under a quality management system aligned with ISO/IEC 17025 and performs all triaxial tests in accordance with BS 1377 parts 7 and 8, BS 5930, and the relevant clauses of Eurocode 7. Calibration of load cells, pressure transducers, and displacement sensors is maintained on a regular schedule with traceable reference standards.</p></details>
             </section>
 

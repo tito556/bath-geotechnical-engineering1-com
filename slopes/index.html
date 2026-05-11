@@ -22,6 +22,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 a { color: var(--primary); text-decoration: none; }
 .sidebar .cat-row {
     display: flex; justify-content: space-between; align-items: center;
@@ -34,7 +39,7 @@ a { color: var(--primary); text-decoration: none; }
     border-bottom: 1px solid rgba(255,255,255,0.1);
     text-decoration: none;
 }
-    main { padding: 1.5rem; }
+    
 .cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
 .sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
@@ -52,8 +57,8 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
 }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-    .container { padding: 1rem; }
-    .content-area { flex-direction: column; }
+    
+    
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 summary:hover { background: rgba(0,0,0,0.02); }
 footer a { color: rgba(255,255,255,0.85); }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .cta .whatsapp-btn {
     display: inline-block; background: #25D366; color: white;
@@ -129,7 +134,9 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .header-contact a:hover { color: white; }
 .servicio:hover { border-color: var(--primary); }
 h1, h2, h3, h4 { font-family: var(--font-h); }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }</style>
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Slopes & Walls in Bath – UK","@type":"WebPage","url":"https://bath.geotechnical-engineering1.com/slopes/","isPartOf":{"@id":"https://bath.geotechnical-engineering1.com/#website","@type":"WebSite","url":"https://bath.geotechnical-engineering1.com"},"inLanguage":"en","description":"In Bath, the stability of slopes and retaining structures is governed by the complex interaction between the city’s distinctive limestone geology and the r","@id":"https://bath.geotechnical-engineering1.com/slopes/"},{"itemListElement":[{"position":1,"item":"https://bath.geotechnical-engineering1.com/","@type":"ListItem","name":"Home"},{"position":2,"item":"https://bath.geotechnical-engineering1.com/slopes/","@type":"ListItem","name":"Slopes & Walls"}],"@type":"BreadcrumbList"},{"name":"Slopes & Walls","itemListElement":[{"position":1,"@type":"ListItem","name":"Active/passive anchor design","url":"https://bath.geotechnical-engineering1.com/anchors/"},{"position":2,"@type":"ListItem","name":"Retaining wall design","url":"https://bath.geotechnical-engineering1.com/retaining-walls/"},{"position":3,"@type":"ListItem","name":"Slope stability analysis","url":"https://bath.geotechnical-engineering1.com/slope-stability/"}],"@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -199,7 +206,14 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../anchors/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Active/passive anchor design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../retaining-walls/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Retaining wall design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../slope-stability/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Slope stability analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/anclajes-4.webp" alt="Slopes & Walls in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>In Bath, the assessment and design of slopes and retaining walls must account for the complex interaction between engineering structures and the local geology, which is dominated by Jurassic limestones, mudstones, and overlying colluvial deposits. A thorough ground <a href="/investigation/">investigation</a> is the essential first step, targeting the identification of potential failure surfaces, groundwater regimes, and the engineering properties of the Oolitic Limestone and Fuller’s Earth formations. Our work is guided by the requirements of UK standards, including BS 5930 for site investigation and the National Annex to Eurocode 7, ensuring that all assessments of new wall designs or unstable slopes are founded on robust geotechnical data that reflects the specific conditions of the Bath basin.</p>
+<p>The technical methodology for analysing slope stability and designing retention systems relies on a combination of in-situ testing and advanced laboratory work to derive peak and residual shear strength parameters. We routinely deploy the <a href="/cpt-test/">Cone Penetration Test (CPT)</a> for continuous profiling in softer alluvial clays found in the Avon valley, which provides high-resolution data on soil stratigraphy and pore pressure. On natural slopes and in stiffer materials, <a href="/lab-in-situ/">in-situ testing</a> such as borehole shear vanes is essential. The retrieved samples are subject to rigorous analysis in our <a href="/laboratory/">laboratory</a>, where index testing including <a href="/atterberg-limits/">Atterberg limits</a> and <a href="/grain-size/">grain size analysis</a> via both sieve and hydrometer methods is critical for classifying the fine-grained soils that control many local landslides. This data feeds directly into limit equilibrium and finite element models in accordance with CIRIA C760 guidance, enabling the safe design of bored pile walls, soil nails, or gravity structures.</p>
+<p>Typical projects in Bath range from stabilising landslips affecting the steep garden terraces of the Lansdown and Camden crescents to designing deep basement retention for new developments within the City of Bath World Heritage Site. In the surrounding rural areas, we frequently address failures in highway cuttings and provide geotechnical certification for retaining walls supporting residential plots on sloping sites. The presence of historic, unrecorded backfill and complex groundwater conditions often necessitates supplementary investigations, such as a <a href="/sand-cone-density/">field density test using the sand cone method</a>, to verify the compaction state of engineered fill behind existing walls or to control the placement of lightweight aggregate backfill in remedial works, ensuring drainage performance and long-term stability.</p>
+<img src="/img/estabilidad-taludes-5.webp" alt="Slopes & Walls in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Our process begins with a desk study and geomorphological mapping, followed by a targeted ground investigation to install piezometers and obtain high-quality samples. The deliverables include a comprehensive Geotechnical Design Report, complete with stability calculations, wall geometry, and drainage specifications that are fully compliant with the CDM 2015 regulations. For structural engineers and developers, this provides a single, defensible package that de-risks the <a href="/foundations/">foundations</a> and earthworks elements of a project. We deliver a clear value proposition: by integrating local geological knowledge with precise site-specific testing, we create retaining solutions that are both economical and resilient, protecting assets against the long-term effects of weathering and seasonal groundwater fluctuation.</p></div></section></main>
     </div>
 </div>
 

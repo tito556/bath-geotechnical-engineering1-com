@@ -22,6 +22,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 a { color: var(--primary); text-decoration: none; }
 .sidebar .cat-row {
     display: flex; justify-content: space-between; align-items: center;
@@ -34,7 +39,7 @@ a { color: var(--primary); text-decoration: none; }
     border-bottom: 1px solid rgba(255,255,255,0.1);
     text-decoration: none;
 }
-    main { padding: 1.5rem; }
+    
 .cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
 .sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
@@ -52,8 +57,8 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
 }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-    .container { padding: 1rem; }
-    .content-area { flex-direction: column; }
+    
+    
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 summary:hover { background: rgba(0,0,0,0.02); }
 footer a { color: rgba(255,255,255,0.85); }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .cta .whatsapp-btn {
     display: inline-block; background: #25D366; color: white;
@@ -129,7 +134,9 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .header-contact a:hover { color: white; }
 .servicio:hover { border-color: var(--primary); }
 h1, h2, h3, h4 { font-family: var(--font-h); }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }</style>
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"In-Situ Testing in Bath – UK","@type":"WebPage","url":"https://bath.geotechnical-engineering1.com/lab-in-situ/","isPartOf":{"@id":"https://bath.geotechnical-engineering1.com/#website","@type":"WebSite","url":"https://bath.geotechnical-engineering1.com"},"inLanguage":"en","description":"In-situ testing across Bath provides direct geotechnical parameters within the variable Lias Clay and Great Oolite limestone formations that define the are","@id":"https://bath.geotechnical-engineering1.com/lab-in-situ/"},{"itemListElement":[{"position":1,"item":"https://bath.geotechnical-engineering1.com/","@type":"ListItem","name":"Home"},{"position":2,"item":"https://bath.geotechnical-engineering1.com/lab-in-situ/","@type":"ListItem","name":"In-Situ Testing"}],"@type":"BreadcrumbList"},{"name":"In-Situ Testing","itemListElement":[{"position":1,"@type":"ListItem","name":"Field density test (sand cone method)","url":"https://bath.geotechnical-engineering1.com/sand-cone-density/"}],"@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -198,7 +205,14 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../sand-cone-density/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Field density test (sand cone method)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/ensayo-proctor-4.webp" alt="In-Situ Testing in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>In-situ testing in Bath provides direct assessment of ground conditions without the disturbance inherent in sampling and laboratory reconstitution. The city's geological setting—predominantly Jurassic limestone of the Great Oolite Group overlying Lias Clay, with extensive valley infill of alluvium and made ground—demands careful selection of test methods to address variable strength, karstic features, and slope instability. A robust <a href="/investigation/">ground investigation</a> programme integrates these techniques with <a href="/laboratory/">laboratory testing</a> to satisfy the requirements of Eurocode 7 (BS EN 1997-2) and the national annexes, ensuring compliance with Bath & North East Somerset Council's planning conditions.</p>
+<p>Standard penetration testing (SPT) remains routine, but modern practice in Bath relies heavily on the <a href="/cpt-test/">cone penetration test (CPT)</a> for continuous profiling of fine-grained soils and soft alluvium, with pore pressure measurement (CPTu) essential for assessing consolidation characteristics in the Lias Clay. The <a href="/sand-cone-density/">field density test (sand cone method)</a> verifies compaction of engineered fill and road base materials, with acceptance criteria referenced to the Specification for Highway Works (Series 600). All insitu work is conducted under BS 5930:2015+A1:2020, with BS EN ISO 22476 governing individual techniques. Selection is guided by the ground model, where dynamic probing may supplement access-restricted areas typical of Bath's dense historic core.</p>
+<p>Projects range from structural <a href="/foundations/">foundations</a> for residential developments on hillside sites to remediation of historic retaining walls along the Avon corridor. CPT is particularly valuable for basement impact assessments in the city centre, where minimal disturbance is critical adjacent to listed structures. For low-rise developments on the limestone plateau, bearing capacity verification often combines SPT with rock coring, while brownfield regeneration projects require insitu permeability testing for soakaway design. The <a href="/atterberg-limits/">Atterberg limits</a> and <a href="/grain-size/">grain size analysis</a> of recovered samples provide essential classification to calibrate insitu test interpretations.</p>
+<img src="/img/ensayo-proctor-4.webp" alt="In-Situ Testing in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Our team delivers a complete <a href="/lab-in-situ/">in-situ testing</a> package from method statement to factual and interpretive reporting. Deliverables include CPT logs with soil behaviour type classification, SPT N-values correlated to strength and stiffness parameters, and density test compliance certificates. The value lies in immediate parameter acquisition without transport delays, enabling real-time refinement of the ground model. For Bath's geotechnical consultants and structural engineers, this translates to optimised foundation designs, reduced over-conservatism, and defensible planning submissions grounded in site-specific data rather than desk study assumptions alone.</p></div></section></main>
     </div>
 </div>
 

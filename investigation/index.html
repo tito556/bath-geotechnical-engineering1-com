@@ -22,6 +22,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 a { color: var(--primary); text-decoration: none; }
 .sidebar .cat-row {
     display: flex; justify-content: space-between; align-items: center;
@@ -34,7 +39,7 @@ a { color: var(--primary); text-decoration: none; }
     border-bottom: 1px solid rgba(255,255,255,0.1);
     text-decoration: none;
 }
-    main { padding: 1.5rem; }
+    
 .cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
 .sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
@@ -52,8 +57,8 @@ main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-w
 }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-    .container { padding: 1rem; }
-    .content-area { flex-direction: column; }
+    
+    
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
@@ -110,7 +115,7 @@ body { font-family: var(--font-b); color: var(--text); background: var(--bg); li
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 summary:hover { background: rgba(0,0,0,0.02); }
 footer a { color: rgba(255,255,255,0.85); }
-    .header-top { flex-direction: column; text-align: center; }
+    
 header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
 .cta .whatsapp-btn {
     display: inline-block; background: #25D366; color: white;
@@ -129,7 +134,9 @@ header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .header-contact a:hover { color: white; }
 .servicio:hover { border-color: var(--primary); }
 h1, h2, h3, h4 { font-family: var(--font-h); }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }</style>
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Investigation in Bath – UK","@type":"WebPage","url":"https://bath.geotechnical-engineering1.com/investigation/","isPartOf":{"@id":"https://bath.geotechnical-engineering1.com/#website","@type":"WebSite","url":"https://bath.geotechnical-engineering1.com"},"inLanguage":"en","description":"Ground investigation in Bath addresses the unique geological setting of the Avon valley, where historic buildings often rest on variable strata including G","@id":"https://bath.geotechnical-engineering1.com/investigation/"},{"itemListElement":[{"position":1,"item":"https://bath.geotechnical-engineering1.com/","@type":"ListItem","name":"Home"},{"position":2,"item":"https://bath.geotechnical-engineering1.com/investigation/","@type":"ListItem","name":"Investigation"}],"@type":"BreadcrumbList"},{"name":"Investigation","itemListElement":[{"position":1,"@type":"ListItem","name":"CPT (Cone Penetration Test)","url":"https://bath.geotechnical-engineering1.com/cpt-test/"}],"@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -198,7 +205,14 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../cpt-test/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">CPT (Cone Penetration Test)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/ensayo-cpt-4.webp" alt="Investigation in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Ground investigation in Bath must address the complex interaction between historic urban fabric and variable underlying geology, primarily the Jurassic limestones and interbedded clays of the Lias Group, overlain in valleys by alluvial and colluvial deposits. A robust <a href="/investigation/">geotechnical investigation</a> is not merely precautionary; it is essential for managing risks associated with solution features in the limestone, potential cambering on valley slopes, and the presence of undocumented historic fill. All phases of work are governed by BS 5930:2015+A1:2020, the UK code of practice for ground investigations, and relevant Eurocode 7 standards, ensuring a design-compliant basis for foundation engineering and earthworks.</p>
+<p>Our investigation methodology integrates intrusive and non-intrusive techniques to build a defensible ground model. We deploy <a href="/cpt-test/">Cone Penetration Testing (CPT)</a> for high-resolution stratigraphic profiling in softer alluvial sequences, allowing continuous assessment of relative density and undrained shear strength. This is complemented by boreholes and trial pits for direct sampling and <a href="/lab-in-situ/">in-situ testing</a>, including Standard Penetration Tests and permeability assessments. Within the laboratory, index testing programmes—covering <a href="/atterberg-limits/">Atterberg limits</a> to classify cohesive soils and <a href="/grain-size/">grain size analysis</a> by sieve and hydrometer for granular materials—are calibrated to the specific lithologies encountered, providing the parameters required for geotechnical design to UK practice.</p>
+<p>Bath’s development landscape presents recurring investigation challenges, from sensitive retrofits within the UNESCO World Heritage Site to new residential schemes on the city’s margins. For small-footprint extensions on sloping clay sites, we routinely apply the <a href="/sand-cone-density/">sand cone density test</a> to verify engineered fill compaction, a critical step given the prevalence of made ground. Larger projects, such as those near the River Avon, demand precise characterisation of soft alluvial clays and gravels to validate bearing capacity and settlement estimates. Our <a href="/laboratory/">laboratory</a> strength and consolidation testing, informed by a thorough understanding of local geology, directly supports these foundation design decisions.</p>
+<img src="/img/ensayo-cbr-1.webp" alt="Investigation in Bath" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>A typical investigation progresses from a desk study and site reconnaissance to a phased physical works programme, culminating in a Ground Investigation Report with a factual record and a geotechnical interpretative section. Deliverables include a detailed ground model, characteristic soil and rock properties, and unambiguous recommendations for <a href="/foundations/">foundations</a> and ground improvement. We provide a single-source solution that combines local geological insight with rigorous adherence to UK standards, enabling design teams to proceed with confidence and avoid costly unforeseen ground conditions during construction.</p></div></section></main>
     </div>
 </div>
 
