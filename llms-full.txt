@@ -13,6 +13,7 @@
 - [Flexible Pavement](https://bath.geotechnical-engineering1.com/flexible-pavement/)
 - [Footings](https://bath.geotechnical-engineering1.com/footings/)
 - [Foundations](https://bath.geotechnical-engineering1.com/foundations/)
+- [Geophysics](https://bath.geotechnical-engineering1.com/geophysics/)
 - [Grain Size](https://bath.geotechnical-engineering1.com/grain-size/)
 - [Ground Improvement](https://bath.geotechnical-engineering1.com/ground-improvement/)
 - [Grouting](https://bath.geotechnical-engineering1.com/grouting/)
